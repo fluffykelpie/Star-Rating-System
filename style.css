@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+
+.rating-box {
+    background-color:#DDD8ED;
+    max-width: 600px;  
+    margin: 40px auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 12px 12px 2px 1px #7F798F;
+    border-radius: 5px;
+    border-color: #7F798F;
+    border: 0.4px solid #7F798F;
+}
+
+.rating-box h1 {
+    margin: 0 0 30px;
+    font-size: 2.5rem;
+    color: #7F798F;
+}
+
+.rating-box .ratings .fa {
+    font-size: 2.5rem;
+    color: #FAF39F;
+    float: left;
+    cursor: pointer;
+}
+
+.rating-box input {
+    margin: 25px;
+    font-size: 1.875rem;
+    padding: 6px 12px;
+    background-color: #fafafa;
+    color: #7F798F;
+}
